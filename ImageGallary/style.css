@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkslateblue;
+    color:aliceblue
+}
+.container h1{
+    padding:10px;
+    text-align:center;
+    
+}
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.flexContainer div{
+    display:flex;
+    flex-direction:column;
+    margin: 10px;
+    border:2px solid yellow;
+    align-items: center;
+    padding: 5px;
+    flex-basis:20%;
+    flex-grow:0;
+    width:200px;
+}
+img{
+    height:200px;
+    width:200px;
+}
